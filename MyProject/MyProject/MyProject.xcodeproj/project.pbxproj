@@ -14,8 +14,8 @@
 		02F8D1AF2964C39F007DE6CA /* MyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8D1AE2964C39F007DE6CA /* MyProjectTests.swift */; };
 		02F8D1B92964C39F007DE6CA /* MyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8D1B82964C39F007DE6CA /* MyProjectUITests.swift */; };
 		02F8D1BB2964C39F007DE6CA /* MyProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8D1BA2964C39F007DE6CA /* MyProjectUITestsLaunchTests.swift */; };
-		02F8D1CB2964C607007DE6CA /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F8D1CA2964C607007DE6CA /* MyFramework.framework */; };
-		02F8D1CC2964C607007DE6CA /* MyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02F8D1CA2964C607007DE6CA /* MyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02F8D1CF2964CC2D007DE6CA /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F8D1CE2964CC2D007DE6CA /* MyFramework.framework */; };
+		02F8D1D02964CC2D007DE6CA /* MyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02F8D1CE2964CC2D007DE6CA /* MyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		02F8D1CD2964C607007DE6CA /* Embed Frameworks */ = {
+		02F8D1D12964CC2D007DE6CA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				02F8D1CC2964C607007DE6CA /* MyFramework.framework in Embed Frameworks */,
+				02F8D1D02964CC2D007DE6CA /* MyFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +61,7 @@
 		02F8D1B82964C39F007DE6CA /* MyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectUITests.swift; sourceTree = "<group>"; };
 		02F8D1BA2964C39F007DE6CA /* MyProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		02F8D1CA2964C607007DE6CA /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F8D1CE2964CC2D007DE6CA /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F8D1CB2964C607007DE6CA /* MyFramework.framework in Frameworks */,
+				02F8D1CF2964CC2D007DE6CA /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +150,7 @@
 		02F8D1C92964C607007DE6CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				02F8D1CE2964CC2D007DE6CA /* MyFramework.framework */,
 				02F8D1CA2964C607007DE6CA /* MyFramework.framework */,
 			);
 			name = Frameworks;
@@ -164,7 +166,7 @@
 				02F8D1962964C39D007DE6CA /* Sources */,
 				02F8D1972964C39D007DE6CA /* Frameworks */,
 				02F8D1982964C39D007DE6CA /* Resources */,
-				02F8D1CD2964C607007DE6CA /* Embed Frameworks */,
+				02F8D1D12964CC2D007DE6CA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

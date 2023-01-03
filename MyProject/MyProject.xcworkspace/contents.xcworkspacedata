@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../SwiftPackage/MyFramework/MyFramework.xcodeproj">
+      location = "group:../../../SwiftPackage/MyFramework/MyFramework.xcodeproj">
    </FileRef>
    <FileRef
       location = "container:MyProject/MyProject.xcodeproj">
